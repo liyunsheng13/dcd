@@ -1,2 +1,2 @@
-# dcd
-official code for dynamic convolution decomposition
+# DCD
+The code is coming soon
