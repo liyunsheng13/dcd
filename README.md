@@ -18,7 +18,7 @@ If you use this code in your research please consider citing
 
 ### Evaluate DCD with ImageNet
 
-The pre-trained model can be downloaded here [ResNet-50] (https://drive.google.com/file/d/14VUXecopj3aTu1s4IKdT2FsPt7Iq7BDK/view?usp=sharing) and [MobileNetV2x1.0] (https://drive.google.com/file/d/1Nc8VsUTpm8NwWthwJUD75deJCbE_LHvk/view?usp=sharing)
+The pre-trained model can be downloaded here [ResNet-50](https://drive.google.com/file/d/14VUXecopj3aTu1s4IKdT2FsPt7Iq7BDK/view?usp=sharing) and [MobileNetV2x1.0](https://drive.google.com/file/d/1Nc8VsUTpm8NwWthwJUD75deJCbE_LHvk/view?usp=sharing)
 
 DCD for ResNet-50
 
