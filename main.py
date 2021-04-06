@@ -26,7 +26,6 @@ from utils import Logger, AverageMeter, accuracy, mkdir_p, savefig
 from utils.dataloaders import *
 from utils.imagenet import ImageNet 
 from tensorboardX import SummaryWriter
-import pdb 
 
 default_model_names = sorted(name for name in models.__dict__
     if name.islower() and not name.startswith("__")
@@ -212,7 +211,6 @@ def main():
         print_options(args.checkpoint, args)
 
     cudnn.benchmark = True
-    pdb.set_trace()
 
     traindir = os.path.join(args.data, 'train')
     valdir = os.path.join(args.data, 'val')
@@ -238,7 +236,6 @@ def main():
         ])),
         batch_size=args.batch_size, shuffle=False, num_workers=args.workers, pin_memory=True)
     val_loader_len = len(val_loader)
-    pdb.set_trace()
     if args.evaluate:
         from collections import OrderedDict
         if os.path.isfile(args.weight):
