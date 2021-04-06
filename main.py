@@ -22,8 +22,7 @@ import torchvision.datasets as datasets
 import torchvision.models as models
 
 import models.imagenet as customized_models
-from utils import Logger, AverageMeter, accuracy, mkdir_p, savefig
-from utils.dataloaders import *
+from utils import Logger, AverageMeter, accuracy, mkdir_p
 from utils.imagenet import ImageNet 
 from tensorboardX import SummaryWriter
 
@@ -45,8 +44,6 @@ model_names = default_model_names + customized_models_names
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 parser.add_argument('-d', '--data', metavar='DIR',
                     help='path to dataset')
-parser.add_argument('--data-backend', metavar='BACKEND', default='pytorch',
-                    choices=DATA_BACKEND_CHOICES)
 parser.add_argument('-a', '--arch', metavar='ARCH', default='resnet18',
                     choices=model_names,
                     help='model architecture: ' +
