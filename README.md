@@ -10,7 +10,7 @@ If you use this code in your research please consider citing
 ### Requirements
 
 - Hardware: PC with NVIDIA Titan GPU.
-- Software: *Ubuntu 16.04*, *CUDA 10.0*, *Anaconda2*, *pytorch 1.0.0*
+- Software: *Ubuntu 16.04*, *CUDA 10.0*, *Anaconda3*, *pytorch 1.0.0*
 - Python package
   - `conda install --quiet --yes pytorch==1.0.0 torchvision==0.2.1 cuda100 -c pytorch`
   - `pip install tensorboard tensorboardX pillow==6.1`
